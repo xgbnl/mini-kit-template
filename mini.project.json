@@ -1,0 +1,12 @@
+{
+  "format": 2,
+  "compileOptions": {
+    "less": true,
+    "typescript": true,
+    "component2": true,
+    "resolveAlias": {
+      "types/*": "./types/*",
+      "utils/*": "./utils/*"
+    }
+  }
+}

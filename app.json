@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/users/index"
+  ],
+  "window": {
+    "defaultTitle": "My App"
+  },
+  "tabBar": {
+    "customize": true,
+    "overlay": true,
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "租好物"
+      },
+      {
+        "pagePath": "pages/users/index",
+        "name": "我的"
+      }
+    ]
+  }
+}

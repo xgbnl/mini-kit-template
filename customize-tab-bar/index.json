@@ -1,0 +1,6 @@
+{
+  "styleIsolation": "apply-shared",
+  "usingComponents": {
+    "ant-tab-bar": "antd-mini/es/TabBar/index"
+  }
+}

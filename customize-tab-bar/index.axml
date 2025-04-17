@@ -1,0 +1,4 @@
+<view>
+  <ant-tab-bar items="{{tabs}}" current="{{current}}" onChange="handleChange">
+  </ant-tab-bar>
+</view>
