@@ -1,4 +1,11 @@
 {
-  "usingComponents": {},
-  "styleIsolation": "apply-shared"
+  "usingComponents": {
+    "ant-avatar": "antd-mini/es/Avatar/index",
+    "ant-container": "antd-mini/es/Container/index",
+    "ant-grid": "antd-mini/es/Grid/index",
+    "ant-card": "antd-mini/es/Card/index",
+    "topbar":"/components/domain//users//topbar/index"
+  },
+  "styleIsolation": "apply-shared",
+  "defaultTitle":"My"
 }

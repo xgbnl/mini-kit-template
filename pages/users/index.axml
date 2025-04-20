@@ -1,3 +1,20 @@
-<view>
-  User Center
-</view>
+<ant-container>
+  <topbar avatar="{{avatar}}" />
+ <ant-grid
+  items="{{items}}"
+  onTap="handleTapItem"
+  iconSize="{{36}}"
+  columns="{{3}}"
+></ant-grid>
+<ant-card
+onOperateClick="handleLinkClick"
+title="My order"
+>
+<ant-grid
+items="{{items}}"
+onTap="handleTapItem"
+iconSize="{{36}}"
+columns="{{3}}"
+></ant-grid>
+</ant-card>
+</ant-container>

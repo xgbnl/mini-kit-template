@@ -1,0 +1,26 @@
+<view class="AntMini-TopBar">
+  <ant-avatar
+    a:if="{{ avatar }}"
+    src="{{avatar}}"
+    className="AntMini-Aavatar"
+    size="{{size}}"
+  />
+  <ant-avatar a:else className="AntMini-Aavatar" size="{{size}}" />
+  <view class="AntMini-TopBar-Box">
+    <ant-typography className="AntMini-Typography" fontWeight="bold">
+      {{nickname ? nickname : '点我登录'}}
+    </ant-typography>
+    <view>
+      <ant-typography
+        a:if="{{ auth === undefined }}"
+        className="AntMini-Typography"
+        fontWeight="normal"
+      >
+        点击登录/注册
+      </ant-typography>
+      <ant-tag a:else color="{{auth ? 'success': 'danger'}}">
+        {{auth ? '已认证': '未认证'}}
+      </ant-tag>
+    </view>
+  </view>
+</view>

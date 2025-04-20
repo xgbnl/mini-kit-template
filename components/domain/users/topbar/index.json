@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "styleIsolation": "apply-shared",
+  "usingComponents": {
+    "ant-avatar": "antd-mini/es/Avatar/index",
+    "ant-tag": "antd-mini/es/Tag/index",
+    "ant-typography": "antd-mini/es/Typography/index"
+  }
+}
